@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+}
+.formcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    border: 0;
+    width: 350px;
+    height: 300px;
+    border-radius: 6px;
+    background: rgb(171, 171, 184);
+    text-align: center;
+    box-shadow: 0 0 5px white;
+}
+.content{
+    padding: 0px 50px;
+}
+.form{
+    display: grid;
+    align-items: center;
+    height: 100%;
+    margin-top: 50px;
+}
+.form input{
+    padding: 10px 5px;
+    border-radius: 6px;
+    border: 0;
+    outline: 0;
+    margin: 10px 0px;
+}
+.form button{
+    padding: 10px 0;
+    border-radius: 6px;
+    margin-top: 10px;
+}

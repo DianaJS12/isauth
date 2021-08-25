@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background: url('https://wallpaperaccess.com/full/1208504.jpg') center / cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 500px;
+    height: 400px;
+    background: rgba(255,255,255,0.8);
+    border-radius: 5px;
+}
+.card-header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.card-header input{
+    padding: 7px;
+    margin: 5px 0;
+    border: 0;
+    outline: 0;
+    background: none;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.card-header button{
+    position: absolute;
+    right: -10%;
+    width: 100px;
+    background: 10px 0;
+    border: 0;
+    background: cornflowerblue;
+    border-radius: 55px;
+    cursor: pointer;
+    outline: 0;
+    padding: 7px ;
+    font-weight: 800;
+}
+.card-body{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 15px;
+}
+.card-person{
+    width: 100%;
+    background: whitesmoke;
+    box-shadow: 0 0 10px grey;
+    padding-right: 5px 0;
+    margin: 10px 0;
+}
+.card-person img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.card-center{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tools i{
+    margin: 0 5px;
+    cursor: pointer;
+}
+.tools i:nth-child(1){
+    color: green;
+}
+.tools i:nth-child(2){
+    color: red;
+}
+.tools i:nth-child(3){
+    color: yellow;
+}
+.card-result{
+    padding: 0 2%;
+    height: 250px;
+    overflow-y: auto;
+}
+.signout{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 0;
+    background: ghostwhite;
+    transition: 0.2s;
+    font-weight: bold;
+
+}
